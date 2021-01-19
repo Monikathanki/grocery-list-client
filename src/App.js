@@ -3,7 +3,7 @@ import "./App.css";
 import { Route } from "react-router-dom";
 
 import Context from "./Context/Context";
-import ErrorPage from "./Components/Errorpage/ErrorPage";
+import ErrorPage from "./Components/ErrorPage/ErrorPage";
 import Navbar from "./Components/Navbar/Navbar";
 import Login from "./Components/Login/Login";
 import ListForm from "./Components/ListForm/ListForm";
@@ -16,7 +16,7 @@ import Register from "./Components/Register/Register";
 import GroceryList from "./Components/GroceryList/GroceryList";
 import listData from "./listData";
 import config from "./config";
-import TokenService from "./services/token-service";
+import TokenService from "./Services/token-service";
 
 class App extends React.Component {
   state = {

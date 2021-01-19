@@ -1,7 +1,7 @@
 import React from "react";
 import Context from "../../Context/Context";
 import config from "../../config";
-import TokenService from "../../services/token-service";
+import TokenService from "../../Services/token-service";
 
 class EditList extends React.Component {
   static contextType = Context;

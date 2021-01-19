@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Context from "../../Context/Context";
-import TokenService from "../../services/token-service";
-import IdleService from "../../services/idle-service";
+import TokenService from "../../Services/token-service";
+import IdleService from "../../Services/idle-service";
 
 
 class Navbar extends React.Component {

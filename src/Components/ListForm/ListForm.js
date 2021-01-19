@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Context from "../../Context/Context";
 import BackButton from "../BackButton/BackButton";
-import TokenService from '../../services/token-service'
+import TokenService from '../../Services/token-service'
 import config from '../../config'
 
 

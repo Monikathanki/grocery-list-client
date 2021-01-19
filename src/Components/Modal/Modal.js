@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Context from "../../Context/Context";
 import config from "../../config";
-import TokenService from "../../services/token-service";
+import TokenService from "../../Services/token-service";
 import DateTime from "../DateTime/DateTime"
 
 function Modal(props) {

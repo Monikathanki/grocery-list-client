@@ -1,5 +1,5 @@
 import React from "react";
-import AuthApiService from "../../services/auth-api-service";
+import AuthApiService from "../../Services/auth-api-service";
 
 class Register extends React.Component {
   state = {
