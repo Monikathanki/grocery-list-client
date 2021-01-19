@@ -70,10 +70,10 @@ function Modal(props) {
           <p>{list?.note}</p>
         </div>
         <div className="list-textbox">
-          <p>{list?.price}</p>
+          <p>${list?.price}</p>
         </div>
         <div className="list-textbox">
-          <p>{list?.weight}</p>
+          <p>{list?.weight} lbs/packets</p>
         </div>
         <div className="list-created-date">
           <p>

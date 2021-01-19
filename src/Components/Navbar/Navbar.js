@@ -51,7 +51,7 @@ class Navbar extends React.Component {
             <h1>
                 <Link to='/'>
                 {' '}
-                Grocery list
+                Grocery Shopping List
                 </Link>
             </h1>
         </div>
