@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Grocdery Shopping List
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- Summary
+- Screenshots
+- Technologies
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Summary
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Grocery shopping list app is a app where user can create grocery  list. Manage expenses for each category and re-used same grocery list for next shopping.\
 
-### `npm test`
+Grocery shopping list are divided into five categories main categories:\
+1. Vegetables
+2. Fruits
+3. Grains
+4. Frozen
+5. Miscellaneous  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+After a user creates a Grocery Shopping List, they can find it in the "Pending list" column on their "Completed list" dashboard.\
 
-### `npm run build`
+Once they've marked a list complete, it moves to the "Completed Lists" column so they can view their shopping list over time.\
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Both Pending and Completed Lists are visible on the "Grocery List Lists" dashboard if a user clicks on them. This will open up the lists so the user can see when it was created; it's also where users can update/edit their liss and delete them if necessary.\
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Grocery Shopping List Landing page**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Grocery-shoppping-app-landing page](https://user-images.githubusercontent.com/63766164/105196349-c3e6bc80-5af8-11eb-86ff-97c06168c5f2.PNG)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Grocery Shopping List categories page**
 
-## Learn More
+![Grocery-shoppping-app-categories page](https://user-images.githubusercontent.com/63766164/105196596-07d9c180-5af9-11eb-99cb-d80072773243.PNG)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Grocery Shopping List Mobile view**
+
+![Grocery-Shopping-app-mobile view](https://user-images.githubusercontent.com/63766164/105196875-4d968a00-5af9-11eb-98e8-e9670892297b.PNG)
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Technologies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Node.js (v. 12.18.3)
+- React.js (v. 17.0.1)
+- PostgreSQL (v. 12.4)
+- Express (v. 4.17.1)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
