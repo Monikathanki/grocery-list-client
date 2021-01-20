@@ -1,4 +1,4 @@
-# Grocdery Shopping List
+# Grocery Shopping List
 
 Live App: [https://grocery-shopping-list.vercel.app](url)
 
