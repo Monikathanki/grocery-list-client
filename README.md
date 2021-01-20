@@ -1,6 +1,6 @@
 # Grocdery Shopping List
 
-Live App: [https://grocery-shopping-list.vercel.app/](url)
+Live App: [https://grocery-shopping-list.vercel.app](url)
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ Live App: [https://grocery-shopping-list.vercel.app/](url)
 
 Grocery shopping list app is a app where user can create grocery  list. Manage expenses for each category and re-used same grocery list for next shopping.
 
-Grocery shopping list are divided into five categories main categories:\
+Grocery shopping list are divided into five categories main categories:
 1. Vegetables
 2. Fruits
 3. Grains
@@ -44,7 +44,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ![Grocery-Shopping-app-mobile view](https://user-images.githubusercontent.com/63766164/105196875-4d968a00-5af9-11eb-98e8-e9670892297b.PNG)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Technologies
 
