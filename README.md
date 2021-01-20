@@ -27,7 +27,6 @@ Once they've marked a list complete, it moves to the "Completed Lists" column so
 Both Pending and Completed Lists are visible on the "Grocery List Lists" dashboard if a user clicks on them. This will open up the lists so the user can see when it was created; it's also where users can update/edit their liss and delete them if necessary.
 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### Screenshots
 
