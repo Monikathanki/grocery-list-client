@@ -1,6 +1,6 @@
 # Grocdery Shopping List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live App: [https://grocery-shopping-list.vercel.app/](url)
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Summary
 
-Grocery shopping list app is a app where user can create grocery  list. Manage expenses for each category and re-used same grocery list for next shopping.\
+Grocery shopping list app is a app where user can create grocery  list. Manage expenses for each category and re-used same grocery list for next shopping.
 
 Grocery shopping list are divided into five categories main categories:\
 1. Vegetables
@@ -20,11 +20,11 @@ Grocery shopping list are divided into five categories main categories:\
 4. Frozen
 5. Miscellaneous  
 
-After a user creates a Grocery Shopping List, they can find it in the "Pending list" column on their "Completed list" dashboard.\
+After a user creates a Grocery Shopping List, they can find it in the "Pending list" column on their "Completed list" dashboard.
 
-Once they've marked a list complete, it moves to the "Completed Lists" column so they can view their shopping list over time.\
+Once they've marked a list complete, it moves to the "Completed Lists" column so they can view their shopping list over time.
 
-Both Pending and Completed Lists are visible on the "Grocery List Lists" dashboard if a user clicks on them. This will open up the lists so the user can see when it was created; it's also where users can update/edit their liss and delete them if necessary.\
+Both Pending and Completed Lists are visible on the "Grocery List Lists" dashboard if a user clicks on them. This will open up the lists so the user can see when it was created; it's also where users can update/edit their liss and delete them if necessary.
 
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
