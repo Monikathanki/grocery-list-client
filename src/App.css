@@ -19,17 +19,27 @@ body {
   font-size: 15px;
   margin-top: 15px;
   border-radius: 10px;
-  background-color: #606060;
+  background-color:#006400;
   border: 3px white solid;
-  box-shadow: 0 3px 0 white;
+  box-shadow: 0 3px 0 rgb(23, 46, 15);
   color: white;
   cursor: pointer;
 }
 
+.login-link {
+  color: #006400;
+}
+.login-link:hover{
+  color: rgb(23, 46, 15);
+  font-size: 25px;
+
+}
+  
+
 .delete-button,
 .edit-button,
 .close-button:hover {
-  background-color: #606060;
+  background-color: #006400;
   font-size: 15px;
 }
 /*login */
@@ -37,17 +47,18 @@ body {
 .credentials-section {
   display: flex;
   flex-direction: column;
-  border: 2px solid grey;
+  border: 2px solid #060f06;
   padding: 30px;
   border-radius: 20px;
   align-items: center;
   margin-top: 2%;
-  background: #d4cdcb;
+  background: #006400;
 }
 
 .create-account {
   padding: 15px;
   font-size: 25px;
+  color: #006400;
 }
 
 .login-form-input {
@@ -61,7 +72,8 @@ body {
   margin-top: 20px;
   border-radius: 20px;
   font-size: 20px;
-  background-color: #595a5c;
+  background-color: #006400;
+  border: white 2px solid;
   color: white;
   cursor: pointer;
 }
@@ -70,7 +82,7 @@ body {
 .login-password {
   font-size: 20px;
   padding: 5px;
-  color: #3d405b;
+  color: white;
 }
 
 .login-form {
@@ -80,7 +92,7 @@ body {
 }
 
 .login-form {
-  color: #3d405b;
+  color: #006400;
 }
 
 .login-form h1 {
@@ -95,22 +107,22 @@ body {
 .logout-button,
 .login-button {
   border: none;
-  background: none;
+  background:none;
   font-size: 25px;
-  color: #3d405b;
+  color: rgb(23, 46, 15);
   padding: 0;
 }
 
 .register-button:hover,
 .logout-button:hover,
 .login-button:hover {
-  color: #312f29;
+  color: #ADFF2F;
 }
 /* Navbar*/
 
 nav {
-  border: #606060 2px solid;
-  background: #606060;
+  border-bottom:white 4px solid;
+  background: #006400;
   padding: 15px;
   font-size: 30px;
   width: 100%;
@@ -138,7 +150,7 @@ nav a {
 
 nav a:hover {
   font-size: 25px;
-  color: rgb(20, 15, 15);
+  color: #ADFF2F;
 }
 /*header*/
 
@@ -157,7 +169,7 @@ span {
 
 .logo-check {
   font-size: 35px;
-  color: #bec0cf;
+  color: #eaebf0;
 }
 /* Register user page */
 
@@ -167,16 +179,16 @@ span {
 }
 
 h2 {
-  color: #606060;
+  color: white;
 }
 
 .register-form {
   border-radius: 20px;
-  background: #606060;
+  background: #006400;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: #606060 2px solid;
+  border: rgb(23, 46, 15) 2px solid;
   width: 40%;
   padding: 50px;
   margin-top: 5%;
@@ -202,7 +214,7 @@ h2 {
   border-radius: 20px;
   padding: 5px;
   background: white;
-  color: #3d405b;
+  color: #006400;
 }
 
 .register-submit {
@@ -211,7 +223,7 @@ h2 {
   margin-top: 20px;
   border-radius: 20px;
   font-size: 20px;
-  background-color: #606060;
+  background-color: #006400;
   color: white;
   cursor: pointer;
 }
@@ -221,7 +233,7 @@ h2 {
       display: flex;
       flex-direction: column;
       align-items: center;
-      border: grey 2px solid;
+      border: rgb(23, 46, 15) 2px solid;
       width: 80%;
       padding: 50px;
       border-radius: 20px;
@@ -235,15 +247,15 @@ h2 {
   font-size: 20px;
   margin-top: 20px;
   border-radius: 20px;
-  background-color: #929497;
-  border: 3px #909499 solid;
-  box-shadow: 0 3px 0 #5b5b5e;
+  background-color: #006400;
+  border: 3px rgb(23, 46, 15) solid;
+  box-shadow: 0 3px 0 #006400;
   cursor: pointer;
   transition: all 0.1s linear;
 }
 
 #create-here:active {
-  box-shadow: 0 3px 0 #929497;
+  box-shadow: 0 3px 0 rgb(23, 46, 15);
   transform: translateY(3px);
 }
 
@@ -266,9 +278,9 @@ h2 {
   font-size: 15px;
   margin-top: 15px;
   border-radius: 10px;
-  background-color: #929497;
-  border: 3px #929497 solid;
-  box-shadow: 0 3px #929497;
+  background-color: #006400;
+  border: 3px #043104 solid;
+  box-shadow: 0 3px rgb(23, 46, 15) ;
   color: white;
   cursor: pointer;
 }
@@ -277,7 +289,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px #929497 solid;
+  border: 2px rgb(23, 46, 15) solid;
   border-radius: 20px;
   padding: 15px;
   width: 75%;
@@ -292,7 +304,7 @@ h2 {
 .list-label {
   font-size: 20px;
   padding: 5px;
-  color: #3d405b;
+  color: #006400;
 }
 
 .add-name-input {
@@ -327,7 +339,7 @@ h2 {
 }
 
 .register-button:hover {
-  color: #36332c;
+  color: #ADFF2F;
 }
 
 .logout-button {
@@ -340,31 +352,31 @@ h2 {
 /*categories page*/
 
 .categories-header h1 {
-  color: #404040;
+  color: #006400;
 }
 
 .veg {
-  background-color: #606060;
+  background-color: #006400;
   color: white;
 }
 
 .fruits {
-  background-color: #606060;
+  background-color: #006400;
   color: white;
 }
 
 .grain {
-  background-color: #606060;
+  background-color: #006400;
   color: white;
 }
 
 .frozen {
-  background-color: #606060;
+  background-color: #006400;
   color: white;
 }
 
 .btn {
-  background-color: #606060;
+  background-color: #006400;
 }
 
 .grocery-list-category.btn a {
@@ -374,7 +386,7 @@ h2 {
 }
 
 .mis {
-  background-color: #606060;
+  background-color: #006400;
   color: white;
 }
 
@@ -390,8 +402,8 @@ h2 {
 
 .add-cat-button {
   background: white;
-  border: 3px #929497 solid;
-  box-shadow: 0 3px #929497;
+  border: 3px rgb(23, 46, 15) solid;
+  box-shadow: 0 3px rgb(23, 46, 15);
   border-radius: 10px;
   height: 30px;
   width: 110px;
@@ -400,14 +412,14 @@ h2 {
 
 .add-cat-button:hover {
   color: white;
-  background: #D0D0D0
+  background: white
 }
 
 .add-cat-button a,
 a:active {
   font-size: 15px;
   text-decoration: none;
-  color: black;
+  color: #006400;
 }
 
 .grocery-list-category {
@@ -448,9 +460,9 @@ a:active {
   font-size: 15px;
   margin-top: 15px;
   border-radius: 20px;
-  background-color: #606060;
-  border: 3px #606060 solid;
-  box-shadow: 0 3px 0 #606060;
+  background-color: #006400;
+  border: 3px rgb(23, 46, 15) solid;
+  box-shadow: 0 3px 0 rgb(23, 46, 15);
   cursor: pointer;
   transition: all 0.1s linear;
   color: white;
@@ -458,7 +470,7 @@ a:active {
 
 .create-list-button:active {
   color: white;
-  box-shadow: 0 3px 0 #606060;
+  box-shadow: 0 3px 0 rgb(23, 46, 15);
   transform: translateY(3px);
 }
 
@@ -512,12 +524,12 @@ ul li {
   list-style-type: none;
   border-radius: 20px;
   margin: 10px;
-  background-color: #606060;
+  background-color: #006400;
 }
 
 .list-textbox {
   padding: 5px;
-  border: #606060 2px solid;
+  border: rgb(23, 46, 15) 2px solid;
   border-radius: 10px;
   width: 75%;
   margin: auto;
@@ -539,8 +551,8 @@ ul {
 }
 
 .view-list-task {
-  border: #606060 2px solid;
-  background: #606060;
+  border: rgb(23, 46, 15) 2px solid;
+  background: #006400;
   border-radius: 20px;
   margin-top: 30px;
   width: 85%;
@@ -596,7 +608,7 @@ ul {
 .modal-main {
   color: white;
   position: fixed;
-  background: #606060;
+  background: #006400;
   font: 25px;
   width: 80%;
   height: 90%;
@@ -606,7 +618,7 @@ ul {
 }
 
 .view-list-modal-button {
-  background-color: #606060;
+  background-color: #006400;
   border: 2px solid white;
   box-shadow: 0 3px 0 white;
   border-radius: 1rem;
@@ -618,7 +630,7 @@ ul {
 
 .view-list-modal-button:hover {
   background-color: white;
-  color: #606060;
+  color: #006400;
   font-weight: bold;
 }
 
@@ -628,7 +640,7 @@ ul {
 }
 
 .view-list-modal-button a:hover {
-  color: #606060;
+  color: #006400;
 }
 
 .modal-main h2 {
@@ -705,8 +717,8 @@ ul {
   height: 80vh;
   margin: auto;
   width: 100%;
-  border: #606060 2px solid;
-  background: #606060;
+  border: rgb(23, 46, 15) 2px solid;
+  background: #006400;
   border-radius: 20px;
   padding: 15px;
 }
@@ -717,9 +729,9 @@ ul {
   font-size: 15px;
   margin-top: 15px;
   border-radius: 10px;
-  background-color: #606060;
+  background-color: #006400;
   border: 3px white solid;
-  box-shadow: 0 3px 0 #606060;
+  box-shadow: 0 3px 0 rgb(23, 46, 15);
   color: white;
   cursor: pointer;
 }
@@ -775,7 +787,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background-color: #606060;
+  background-color: #006400;
   padding: 150px;
 }
 
@@ -801,8 +813,8 @@ ul {
 /* Footer */
 
 .footer {
-  border: white 2px solid;
-  background-color: #606060;
+  border-top: white 4px solid;
+  background-color: #006400;
   color: white;
   height: 25px;
   position: fixed;
@@ -818,7 +830,7 @@ ul {
 
 .Input,
 .Textarea {
-  border: 1px solid #ddd;
+  border: 1px solid #006400;
   display: block;
   font-size: 1.1em;
   margin-bottom: 10px;
@@ -838,8 +850,8 @@ ul {
 }
 
 .Button {
-  order: 1px solid #aaa;
-  background-color: #eee;
+  order: 1px solid white;
+  background-color: white;
   font-size: 1.1em;
   border-radius: 4px;
   padding: 8px 12px;
@@ -847,7 +859,7 @@ ul {
 }
 
 .Required {
-  color: #CA1551;
+  color: red;
   font-family: Arial;
   font-weight: bold;
 }
@@ -872,7 +884,7 @@ ul {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
-      background-color: #606060;
+      background-color: #006400;
       padding: 75px;
   }
   p {
@@ -898,7 +910,7 @@ ul {
       display: flex;
       flex-direction: column;
       align-items: center;
-      border: grey 2px solid;
+      border: rgb(23, 46, 15) 2px solid;
       width: 80%;
       padding: 50px;
       border-radius: 20px;

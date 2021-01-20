@@ -79,7 +79,7 @@ class Login extends React.Component {
           </div>
         </form>
         <div className="create-account">
-          <Link to="/register">Create an account</Link>
+          <Link className = "login-link" to="/register">Create an account</Link>
         </div>
       </div>
     );
