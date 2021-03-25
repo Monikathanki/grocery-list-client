@@ -28,9 +28,6 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    //   fetch(`${config.REACT_APP_API_BASE_URL}/lists`)
-    //  .then((res) => res.json())
-    //  .then((lists) => this.setState({lists}))
 
     if(TokenService.hasAuthToken()) {
       this.init()
